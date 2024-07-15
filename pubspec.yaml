@@ -1,0 +1,43 @@
+name: food_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.3.0
+  simple_animations: ^5.0.2
+  page_transition: ^2.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/starter-image.jpg
+    - assets/images/pizza1.jpeg
+    - assets/images/pizza2.jpg
+    - assets/images/pizza3.jpg
+    - assets/images/burger1.jpg
+    - assets/images/burger2.jpg
+    - assets/images/burger3.jpg
+    - assets/images/pasta1.jpg
+    - assets/images/pasta2.jpg
+    - assets/images/pasta3.jpg
+    - assets/images/salad1.jpg
+    - assets/images/salad2.jpeg
+    - assets/images/salad3.jpg
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Light.ttf
